@@ -1,13 +1,89 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.landing-div{
+  background-color: #0c0c87;
+  padding: 24px 120px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links{
+  color: white;
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+.home-div{
+  background-color: #0c0c87;
+  padding: 0 120px 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-right, .home-left{
+  width: 48%;
+}
+
+.home-right{
+  display: flex;
+  justify-content: center;
+}
+
+#welcome{
+  color: #bbbbff;
+}
+
+.home-left h1{
+  margin: 24px 0;
+  color: white;
+  font-size: 48px;
+}
+
+#btn-get-started{
+  margin-left: 16px;
+  border: none;
+  padding: 12px 18px;
+  background-image: linear-gradient(to bottom right, #2d2de1 , #9999de);
+  color: white;
+}
+
+.logo-img{
+  width: 48px;
+}
+
+#madowow{
+  color: white;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.twins-btns{
+  padding: 16px 48px;
+  border-radius: 4px;
+}
+
+.twin-1{
+  margin-right: 12px;
+  background-color: #09ece5;
+  border: none;
+  color: #0c0c87;
+}
+
+.twin-2{
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.businessman{
+  width: 60%;
 }
