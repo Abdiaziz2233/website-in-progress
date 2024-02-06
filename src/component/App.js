@@ -6,7 +6,7 @@ import Home from "./Home";
 function App() {
   return (
     <div>
-      <Header/>
+      <Header/> 
       <div >
         <Switch>
           <Route exact path="/">

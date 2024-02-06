@@ -87,3 +87,55 @@ nav {
 .businessman{
   width: 60%;
 }
+
+.white-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards{
+  
+  background-color: white;
+  padding: 48px;
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition:  0.5s;
+}
+
+.cards:hover{
+  box-shadow: 0px 8px 41px 4px rgba(217,217,217,1);
+  transform: scale(106%);
+}
+
+.cards button{
+  padding: 12px 24px;
+  background-color: #0c0c87;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.computer-icon{
+  font-size: 48px;
+}
+
+.customers{
+  text-align: center;
+  margin: 40px;
+}
+
+
+.logo-apple {
+  font-size: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo-apple img{
+  width: 160px;
+}
