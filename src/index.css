@@ -130,7 +130,7 @@ nav {
 
 
 .logo-apple {
-  font-size: 80px;
+  font-size: 50px;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
@@ -138,4 +138,54 @@ nav {
 
 .logo-apple img{
   width: 160px;
+  margin-bottom: 24px;
 }
+
+.matter{
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.matter-h3{
+  font-size:28px;
+  margin-bottom: 26px;
+}
+
+.matter-button{
+  padding: 12px 24px;
+  background-color: #0c0c87;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 32px;
+}
+
+.investerman{
+  width: 20%;
+}
+.matter-one{
+  width: 25%;
+}
+.blulight{
+  background-image: linear-gradient(to right, #2d2de1 , #1c9ec9);
+}
+
+.check{
+  font-size: 50px;
+}
+
+.remote-div{
+  border-radius: 6px;
+  display: flex;
+  margin-bottom: 12px;
+  padding: 8px;
+  box-shadow: 0px 8px 41px 4px rgba(217,217,217,1);
+}
+
+
+
+
+
+

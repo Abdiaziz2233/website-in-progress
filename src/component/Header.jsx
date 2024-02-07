@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 function Header() {
   return (
     <nav className="landing-div">
-        <div>
+        <div>code
           <Link to={"/"}>
             <img className='logo-img' src={"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/BMW_logo_%28gray%29.svg/2048px-BMW_logo_%28gray%29.svg.png"} alt="" />
           </Link>
