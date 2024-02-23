@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' 
 import { RiComputerFill } from "react-icons/ri";
 import { BsAirplaneEnginesFill } from "react-icons/bs";
 import { BsBank } from "react-icons/bs";
@@ -29,19 +29,19 @@ function Home() {
         <div className='cards'>
           <RiComputerFill className='computer-icon'/>
           <h2>Software services</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ad eaque sapiente harum.</p>
-          <button>Learn More</button>
+          <p>Software as a Service (SaaS) refers specifically to business software applications that are delivered via the cloud instead of being deployed on local platforms. SaaS is one of the three main types of cloud computing, along with Infrastructure as a Service (IaaS) and Platform as a Service (PaaS).3 </p>
+          <button>Learn More</button> 
         </div>
         <div className='cards'>
           <BsAirplaneEnginesFill className='computer-icon'/>
           <h2>cloud services</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ad eaque sapiente harum.</p>
+          <p>Examples of SaaS cloud service providers include Dropbox, G Suite, Microsoft Office 365, and Slack. In each of these applications, users can access, share, store, and secure information in “the cloud.”</p>
           <button>Learn More</button>
         </div>
         <div className='cards'>
           <BsBank className='computer-icon'/>
           <h2>security services</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ad eaque sapiente harum.</p>
+          <p>“Your security is our topmost priority.” You have probably heard this line a thousand times. People usually encounter this with bank transactions or any establishments that require security. It is indeed everyone's concern to be secured and feel protected.</p>
           <button>Learn More</button>
         </div>
       </div>
@@ -95,6 +95,7 @@ function Home() {
         </div>
 
       </div>
+      <hr />
    
 
     </>

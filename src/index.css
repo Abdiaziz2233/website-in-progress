@@ -145,12 +145,15 @@ nav {
   padding: 48px;
   display: flex;
   justify-content: space-between;
+  box-shadow: 0px 8px 41px 4px rgba(217,217,217,1);
+
 }
 
 
 .matter-h3{
   font-size:28px;
   margin-bottom: 26px;
+
 }
 
 .matter-button{
@@ -187,6 +190,7 @@ nav {
 
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 header {
@@ -195,19 +199,35 @@ header {
   padding: 20px;
 }
 
-.about {
+
+.about-us {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin: 20px auto;
   padding: 20px;
-  max-width: 600px;
-  border: 1px solid #ccc;
+}
+
+.about-text {
+  flex: 1;
+  text-align: left;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
   border-radius: 5px;
 }
 
-.about h2 {
+.about-text h2 {
   color: #333;
 }
 
-.about p {
+.about-text p {
   line-height: 1.5;
 }
 
