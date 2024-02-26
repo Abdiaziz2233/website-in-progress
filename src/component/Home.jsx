@@ -2,10 +2,6 @@ import React from 'react'
 import { RiComputerFill } from "react-icons/ri";
 import { BsAirplaneEnginesFill } from "react-icons/bs";
 import { BsBank } from "react-icons/bs";
-import { FaApplePay } from "react-icons/fa";
-import { SiAppletv } from "react-icons/si";
-import { BsAmazon } from "react-icons/bs";
-import { AiOutlineSortAscending } from "react-icons/ai"
 import { CiCircleCheck } from "react-icons/ci";
 
 function Home() {
@@ -13,36 +9,36 @@ function Home() {
     <>
       <div className='home-div'>
         <div className='home-left'>
-            <p id='welcome'>WELCOME TO BIRU</p>
-            <h1>We solve business problem with technology.</h1>
-            <p id='madowow'>Our performance is your success. Our passion is innovation. Our expertise is unmatched. we get you more.</p>
-            <button className='twin-1 twins-btns'>Get Started</button>
-            <button className='twin-2 twins-btns'>View Case Study</button>
+           <p id='welcome'>WELCOME TO BIRU</p>
+           <h1>We solve business problem with technology.</h1>
+           <p id='madowow'>Our performance is your success. Our passion is innovation. Our expertise is unmatched. we get you more.</p>
+           <button className='twin-1 twins-btns'>Get Started</button>
+           <button className='twin-2 twins-btns'>View Case Study</button>
         </div>
         <div className='home-right'>
-            <img className='businessman' src={"https://static.vecteezy.com/system/resources/previews/028/144/531/original/asian-businessman-isolated-png.png"} alt="" />
+           <img className='businessman' src={"https://www.pixelsquid.com/png/business-man-sitting-with-phone-2203809966102418553?image=G03"} alt="" />
         </div>
       </div>
 
 
       <div className='white-div'>
         <div className='cards'>
-          <RiComputerFill className='computer-icon'/>
-          <h2>Software services</h2>
-          <p>Software as a Service (SaaS) refers specifically to business software applications that are delivered via the cloud instead of being deployed on local platforms. SaaS is one of the three main types of cloud computing, along with Infrastructure as a Service (IaaS) and Platform as a Service (PaaS).3 </p>
-          <button>Learn More</button> 
+           <RiComputerFill className='computer-icon'/>
+           <h2>Software services</h2>
+           <p>Software as a Service (SaaS) refers specifically to business software applications that are delivered via the cloud instead of being deployed on local platforms. SaaS is one of the three main types of cloud computing, along with Infrastructure as a Service (IaaS) and Platform as a Service (PaaS).3 </p>
+           <button>Learn More</button> 
         </div>
         <div className='cards'>
-          <BsAirplaneEnginesFill className='computer-icon'/>
-          <h2>cloud services</h2>
-          <p>Examples of SaaS cloud service providers include Dropbox, G Suite, Microsoft Office 365, and Slack. In each of these applications, users can access, share, store, and secure information in “the cloud.”</p>
-          <button>Learn More</button>
+           <BsAirplaneEnginesFill className='computer-icon'/>
+           <h2>cloud services</h2>
+           <p>Examples of SaaS cloud service providers include Dropbox, G Suite, Microsoft Office 365, and Slack. In each of these applications, users can access, share, store, and secure information in “the cloud.”</p>
+           <button>Learn More</button>
         </div>
         <div className='cards'>
-          <BsBank className='computer-icon'/>
-          <h2>security services</h2>
-          <p>“Your security is our topmost priority.” You have probably heard this line a thousand times. People usually encounter this with bank transactions or any establishments that require security. It is indeed everyone's concern to be secured and feel protected.</p>
-          <button>Learn More</button>
+           <BsBank className='computer-icon'/>
+           <h2>security services</h2>
+           <p>“Your security is our topmost priority.” You have probably heard this line a thousand times. People usually encounter this with bank transactions or any establishments that require security. It is indeed everyone's concern to be secured and feel protected.</p>
+           <button>Learn More</button>
         </div>
       </div>
 
@@ -93,10 +89,13 @@ function Home() {
             </div>
           </div>
         </div>
-
       </div>
-      <hr />
-   
+
+
+
+
+
+
 
     </>
 

@@ -1,11 +1,12 @@
 import React from 'react'
 
-function about() {
+function Login() {
   return (
-    <div> 
+    <div>
       
     </div>
   )
 }
 
-export default about
+export default Login
+
